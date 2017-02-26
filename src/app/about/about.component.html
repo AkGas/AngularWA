@@ -1,0 +1,29 @@
+<div class="about-us-container section-container">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12 about-us section-description wow fadeIn">
+				<h2>{{aboutUs_content}}</h2>
+				<div class="divider-1 wow fadeInUp"><span></span></div>
+			</div>
+		</div>
+
+		<div *ngFor="let m of aboutUsMembers; let i =index">
+			
+			<div class="col-sm-4 about-us-box wow fadeInUp">
+				<div class="about-us-photo">
+					<img src="../../assets/imgs/about/{{i+1}}.jpg" alt="" data-at2x="../../assets/imgs/about/0.jpg"><!-- -->
+					<div class="about-us-role">{{m.role}}</div>
+				</div>
+				<h3>{{m.member}}</h3>
+				<p>{{m.description}}.</p>
+				<div class="about-us-social">
+					<a href="#"><span class="typcn typcn-social-facebook"></span></a>
+					<a href="#"><span class="typcn typcn-social-dribbble"></span></a>
+					<a href="#"><span class="typcn typcn-social-twitter"></span></a>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+</div>
+

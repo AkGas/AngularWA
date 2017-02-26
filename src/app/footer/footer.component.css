@@ -1,0 +1,17 @@
+/***** Footer *****/
+
+footer {
+	padding: 40px 0 35px 0;
+}
+
+.footer-social {
+	font-size: 50px;
+    line-height: 50px;
+}
+
+.footer-social a { color: #ddd; }
+.footer-social a:hover, .footer-social a:focus { color: #e8643e; }
+
+.footer-copyright {
+	margin-top: 25px;
+}
