@@ -1,0 +1,21 @@
+{
+	"TeamMemebers": [
+		{
+			"member": "member 1",
+			"role": "role 1",
+			"description": "some description member 1"
+		},
+		{
+			"member": "member 2",
+			"role": "role 2",
+			"description": "some description member 2"
+		},
+		{
+			"member": "member 3",
+			"role": "role 3",
+			"description": "some description member 3"
+		}
+	],
+
+	"About us": "About us"
+}

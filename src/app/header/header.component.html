@@ -1,0 +1,56 @@
+<!-- Top content -->
+<div class="top-content">
+    <!-- Top menu -->
+    <nav class="navbar navbar-inverse navbar-no-bg" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top-navbar-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">something to be added here</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="top-navbar-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li *ngFor="let label of labels; let i = index"><a class="scroll-link" href="#">{{label}}</a></li>
+                    <!--<li><a class="btn btn-link-2 scroll-link" href="#pricing">Get it now!</a></li> -->
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="inner-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 col-sm-offset-2 text">
+                    <h1 class="wow fadeInLeftBig" [innerHTML]= "atTheHeader_title"></h1>
+                    <div class="description wow fadeInLeftBig">
+                        <p>
+                            {{atTheHeader_phrase}}
+                        </p>
+                    </div>
+                    <div class="top-big-link wow fadeInUp">
+                        <a class="btn btn-link-1 scroll-link" href="#pricing">Our prices</a>
+                        <a class="btn btn-link-2 scroll-link" href="#features">Learn more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-sm-offset-3 video">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="//player.vimeo.com/video/115014610?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;color=e8643e" 
+                        webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 top-arrow wow fadeInDownBig">
+                    <span class="typcn typcn-arrow-down"></span>
+                </div>
+            </div>
+        </div>
+    </div>    
+</div>
