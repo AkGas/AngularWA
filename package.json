@@ -48,8 +48,7 @@
   "description": "Web application using the angular2 framework with TypeScript ",
   "main": "angular-cli-build.js",
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/AkGas/AngularWA.git"
+    "type": "git"
   },
   "keywords": [
     "Angular2",
@@ -60,7 +59,5 @@
   ],
   "author": "Akrem Gassoumi",
   "bugs": {
-    "url": "https://github.com/AkGas/AngularWA/issues"
-  },
-  "homepage": "https://github.com/AkGas/AngularWA#readme"
+  }
 }
